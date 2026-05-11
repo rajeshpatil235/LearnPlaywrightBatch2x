@@ -29,7 +29,18 @@ LearnPlaywrightBatch2x/
 │   ├── Identifier_eg.js            # Identifier examples
 │   └── VS_Code_Keyboard_shortcuts.md # VS Code shortcuts reference
 │
-└── chapter_03_Identifier_Literals/ # (Coming Soon)
+├── chapter_04_JavaScriptBasics/    # Variables, Functions, Scope & Hoisting
+│   ├── 09_var_let_const.js         # var vs let vs const overview
+│   ├── 10_functions.js             # Functions basics
+│   ├── 11_var_explained.js         # var deep dive
+│   ├── 12_let_explained.js         # let deep dive
+│   ├── 13_const_explained.js       # const deep dive
+│   ├── 14_var_functionScope.js     # Function scope with var
+│   ├── 15_let_blockScope.js        # Block scope with let
+│   ├── 16_hoisting.js              # Hoisting basics
+│   └── 17_hoisting_function.js     # Function hoisting
+│
+└── (More chapters coming soon...)
 ```
 
 ---
@@ -68,11 +79,20 @@ node chapter_02_Identifier_Literals/07_Identifier_Part2.js
 - Comments (single-line `//` and multi-line `/* */`)
 - VS Code keyboard shortcuts for Windows
 
+### Chapter 4: JavaScript Basics (Variables, Functions, Scope & Hoisting)
+- `var`, `let`, and `const` differences
+- Function declarations and basics
+- Deep dive into `var` (function scope, redeclaration)
+- Deep dive into `let` (block scope, temporal dead zone)
+- Deep dive into `const` (block scope, immutability)
+- Function scope vs Block scope
+- Hoisting of variables and functions
+
 ### Coming Up Next
 - Data Types
 - Operators
 - Control Flow
-- Functions in depth
+- Arrays & Objects
 - Introduction to Playwright
 
 ---
