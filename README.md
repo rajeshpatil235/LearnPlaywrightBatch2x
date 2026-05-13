@@ -34,11 +34,24 @@ LearnPlaywrightBatch2x/
 │   ├── 10_functions.js             # Functions basics
 │   ├── 11_var_explained.js         # var deep dive
 │   ├── 12_let_explained.js         # let deep dive
-│   ├── 13_const_explained.js       # const deep dive
 │   ├── 14_var_functionScope.js     # Function scope with var
 │   ├── 15_let_blockScope.js        # Block scope with let
 │   ├── 16_hoisting.js              # Hoisting basics
-│   └── 17_hoisting_function.js     # Function hoisting
+│   ├── 17_hoisting_function.js     # Function hoisting
+│   ├── 18_let_hoisting.js          # let hoisting behavior
+│   ├── 19_let_hoisting_block.js    # let hoisting in blocks
+│   ├── 20_let_const_hoisting.js    # let & const hoisting comparison
+│   └── 21_jr_qa.js                 # Junior QA concepts
+│
+├── chapter_05_Literals/            # All JavaScript Literals
+│   ├── 22_Literal.js               # Literal basics
+│   ├── 23_null_vs_undefined.js     # null vs undefined deep dive
+│   ├── 24_null.js                  # null literal examples
+│   ├── 25_Literal_All.js           # All literals overview
+│   ├── 26_All_Literals.js          # Comprehensive literals guide (60 examples)
+│   ├── 27_Quotes_Strings.js        # Single, double, backtick comparison
+│   ├── 28_Template_Literals.js     # Template literals with interpolation
+│   └── 29_String_Methods.js        # String methods & quotes comparison
 │
 └── (More chapters coming soon...)
 ```
@@ -59,6 +72,9 @@ To run any `.js` file, use Node.js from your terminal:
 # Example: run a specific file
 node chapter_01_Basics/01_Basics.js
 node chapter_02_Identifier_Literals/07_Identifier_Part2.js
+node chapter_05_Literals/23_null_vs_undefined.js
+node chapter_05_Literals/26_All_Literals.js
+node chapter_05_Literals/29_String_Methods.js
 ```
 
 ---
@@ -87,6 +103,21 @@ node chapter_02_Identifier_Literals/07_Identifier_Part2.js
 - Deep dive into `const` (block scope, immutability)
 - Function scope vs Block scope
 - Hoisting of variables and functions
+
+### Chapter 5: Literals
+- What are literals in JavaScript
+- String literals: single quotes `'...'`, double quotes `"..."`, backticks `` `...` ``
+- Number literals: integers, floats, hex, binary, octal, exponential
+- BigInt literals for large numbers
+- Boolean literals (`true`, `false`)
+- `null` vs `undefined` — differences, equality, practical examples
+- Array literals and nested arrays
+- Object literals, computed properties, shorthand, spread
+- RegExp literals (`/pattern/flags`)
+- Symbol literals (`Symbol()`)
+- Template literals with interpolation `${variable}`
+- Tagged template literals
+- String methods: `slice`, `split`, `replace`, `trim`, `padStart`, `includes`, etc.
 
 ### Coming Up Next
 - Data Types
