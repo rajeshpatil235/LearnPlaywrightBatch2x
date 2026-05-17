@@ -29,7 +29,7 @@ LearnPlaywrightBatch2x/
 │   ├── Identifier_eg.js            # Identifier examples
 │   └── VS_Code_Keyboard_shortcuts.md # VS Code shortcuts reference
 │
-├── chapter_04_JavaScriptBasics/    # Variables, Functions, Scope & Hoisting
+├── chapter_04_Scope_Function_Hoisting_TDZ/ # Variables, Functions, Scope & Hoisting
 │   ├── 09_var_let_const.js         # var vs let vs const overview
 │   ├── 10_functions.js             # Functions basics
 │   ├── 11_var_explained.js         # var deep dive
