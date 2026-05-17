@@ -21,12 +21,8 @@ LearnPlaywrightBatch2x/
 │   ├── 03_Commands.js              # Basic commands & concepts
 │   └── 04_HotCode.js               # Hot code / quick examples
 │
-├── chapter_02_Identifier_Literals/ # Identifiers & Literals
+├── chapter_02_JavaScript_Basics/   # JavaScript Basics
 │   ├── 05_JS_Basics.js             # JS Basics recap
-│   ├── 06_Identifier_Rules.js      # Identifier naming rules
-│   ├── 07_Identifier_Part2.js      # Identifier examples & best practices
-│   ├── 08_Comments.js              # Comments in JS
-│   ├── Identifier_eg.js            # Identifier examples
 │   └── VS_Code_Keyboard_shortcuts.md # VS Code shortcuts reference
 │
 ├── chapter_04_Scope_Function_Hoisting_TDZ/ # Variables, Functions, Scope & Hoisting
@@ -99,12 +95,8 @@ node chapter_06_Operator/38_Confusing_Comparison.js
 - Loops (`for` loop)
 - Functions
 
-### Chapter 2: Identifiers & Literals
-- What are identifiers in JavaScript
-- Rules for naming identifiers
-- Valid vs Invalid identifier examples
-- Naming conventions (camelCase, snake_case, PascalCase, UPPER_CASE)
-- Comments (single-line `//` and multi-line `/* */`)
+### Chapter 2: JavaScript Basics
+- JS Basics recap
 - VS Code keyboard shortcuts for Windows
 
 ### Chapter 4: JavaScript Basics (Variables, Functions, Scope & Hoisting)
