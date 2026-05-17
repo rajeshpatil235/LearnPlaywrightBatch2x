@@ -53,6 +53,17 @@ LearnPlaywrightBatch2x/
 │   ├── 28_Template_Literals.js     # Template literals with interpolation
 │   └── 29_String_Methods.js        # String methods & quotes comparison
 │
+├── chapter_06_Operator/              # Operators
+│   ├── 30_Operator.js                # Operator basics
+│   ├── 31_Arithmetic_Operator.js     # Arithmetic operators
+│   ├── 32_Modulus_Operator.js        # Modulus operator
+│   ├── 33_Expo_Operator.js           # Exponentiation operator
+│   ├── 34_InterviewQ_js              # Interview questions
+│   ├── 35_Comparison_Operator.js     # Comparison operators (<, >, ==, ===)
+│   ├── 36_Loose_Strict_Comparison.js # Loose (==) vs Strict (===) comparison
+│   ├── 37_Loose_Vs_Strict.js         # Edge cases in loose comparison
+│   └── 38_Confusing_Comparison.js    # Confusing == and === cases
+│
 └── (More chapters coming soon...)
 ```
 
@@ -75,6 +86,7 @@ node chapter_02_Identifier_Literals/07_Identifier_Part2.js
 node chapter_05_Literals/23_null_vs_undefined.js
 node chapter_05_Literals/26_All_Literals.js
 node chapter_05_Literals/29_String_Methods.js
+node chapter_06_Operator/38_Confusing_Comparison.js
 ```
 
 ---
@@ -119,9 +131,16 @@ node chapter_05_Literals/29_String_Methods.js
 - Tagged template literals
 - String methods: `slice`, `split`, `replace`, `trim`, `padStart`, `includes`, etc.
 
+### Chapter 6: Operators
+- Arithmetic operators (`+`, `-`, `*`, `/`, `%`, `**`)
+- Comparison operators (`<`, `>`, `<=`, `>=`, `==`, `===`, `!=`, `!==`)
+- Loose comparison (`==`) with type coercion
+- Strict comparison (`===`) without type coercion
+- Confusing comparison cases: `[] == ![]`, `NaN == NaN`, `null == undefined`, etc.
+- `Object.is()` vs `===` for edge cases (`NaN`, `-0`)
+
 ### Coming Up Next
 - Data Types
-- Operators
 - Control Flow
 - Arrays & Objects
 - Introduction to Playwright
