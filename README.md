@@ -50,15 +50,27 @@ LearnPlaywrightBatch2x/
 │   └── 29_String_Methods.js        # String methods & quotes comparison
 │
 ├── chapter_06_Operator/              # Operators
-│   ├── 30_Operator.js                # Operator basics
-│   ├── 31_Arithmetic_Operator.js     # Arithmetic operators
-│   ├── 32_Modulus_Operator.js        # Modulus operator
-│   ├── 33_Expo_Operator.js           # Exponentiation operator
-│   ├── 34_InterviewQ_js              # Interview questions
-│   ├── 35_Comparison_Operator.js     # Comparison operators (<, >, ==, ===)
-│   ├── 36_Loose_Strict_Comparison.js # Loose (==) vs Strict (===) comparison
-│   ├── 37_Loose_Vs_Strict.js         # Edge cases in loose comparison
-│   └── 38_Confusing_Comparison.js    # Confusing == and === cases
+│   ├── 30_Operator.js                      # Operator basics
+│   ├── 31_Arithmetic_Operator.js           # Arithmetic operators
+│   ├── 32_Modulus_Operator.js              # Modulus operator
+│   ├── 33_Expo_Operator.js                 # Exponentiation operator
+│   ├── 34_InterviewQ.js                    # Interview questions
+│   ├── 35_Comparison_Operator.js           # Comparison operators (<, >, ==, ===)
+│   ├── 36_Loose_Strict_Comparison.js       # Loose (==) vs Strict (===) comparison
+│   ├── 37_Loose_Vs_Strict.js               # Edge cases in loose comparison
+│   ├── 38_Confusing_Comparison.js          # Confusing == and === cases
+│   ├── 39_Logical_Operator.js              # Logical operators (&&, ||, !)
+│   ├── 40_String_Concatenation.js          # String concatenation
+│   ├── 41_Ternary_Operator.js              # Ternary operator examples
+│   ├── 42_Type_Operator.js                 # typeof operator
+│   ├── 43_Null_Operator.js               # Nullish coalescing operator
+│   ├── 44_PreIncrement_Operator.js       # Pre-increment operator
+│   ├── 45_PostIncrement_Operator.js      # Post-increment operator
+│   ├── 46_Interview_Incre.js               # Interview questions on increment
+│   ├── 47_Advanced_Incre.js                # Advanced increment/decrement
+│   ├── 47_Assignment_Ternary1_js           # Assignment: Ternary part 1
+│   ├── 47_Assignment_Ternary2.js           # Assignment: Ternary part 2
+│   └── 48_Assignment_Incre_decre1.js       # Assignment: Increment/Decrement
 │
 └── (More chapters coming soon...)
 ```
@@ -83,6 +95,11 @@ node chapter_05_Literals/23_null_vs_undefined.js
 node chapter_05_Literals/26_All_Literals.js
 node chapter_05_Literals/29_String_Methods.js
 node chapter_06_Operator/38_Confusing_Comparison.js
+node chapter_06_Operator/41_Ternary_Operator.js
+node chapter_06_Operator/42_Type_Operator.js
+node chapter_06_Operator/43_Null_Operator.js
+node chapter_06_Operator/44_PreIncrement_Operator.js
+node chapter_06_Operator/45_PostIncrement_Operator.js
 ```
 
 ---
@@ -130,6 +147,14 @@ node chapter_06_Operator/38_Confusing_Comparison.js
 - Strict comparison (`===`) without type coercion
 - Confusing comparison cases: `[] == ![]`, `NaN == NaN`, `null == undefined`, etc.
 - `Object.is()` vs `===` for edge cases (`NaN`, `-0`)
+- Logical operators (`&&`, `||`, `!`)
+- String concatenation with `+` and `+=`
+- Ternary operator (`condition ? true : false`) and nested ternary
+- `typeof` operator for type checking
+- Nullish coalescing operator (`??`)
+- Pre-increment (`++x`) and Post-increment (`x++`)
+- Pre-decrement (`--x`) and Post-decrement (`x--`)
+- Interview questions on increment/decrement
 
 ### Coming Up Next
 - Data Types
