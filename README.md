@@ -70,7 +70,34 @@ LearnPlaywrightBatch2x/
 │   ├── 47_Advanced_Incre.js                # Advanced increment/decrement
 │   ├── 47_Assignment_Ternary1_js           # Assignment: Ternary part 1
 │   ├── 47_Assignment_Ternary2.js           # Assignment: Ternary part 2
-│   └── 48_Assignment_Incre_decre1.js       # Assignment: Increment/Decrement
+│   └── 47_Assignment_Incre_decre1.js       # Assignment: Increment/Decrement
+│
+├── chapter_07_If_Else/               # If-Else Statements
+│   ├── 48_IfElse.js                      # If-Else basics
+│   ├── 49_IfElse.js                      # If-Else examples
+│   ├── 50_IfElse.js                      # Nested If-Else
+│   ├── 51_IfElse.js                      # If-Else practice
+│   ├── 52_IQ.js                          # Interview questions
+│   ├── 53_IfElse.js                      # Advanced If-Else
+│   ├── 54_IQ.js                          # More interview questions
+│   ├── 55_If.js                          # If statement only
+│   ├── 56_Even_Odd.js                    # Even/Odd checker
+│   ├── 57_Grade_Calc.js                  # Grade calculator
+│   ├── 58_Leap_Year.js                   # Leap year checker
+│   └── Assignment1.js to Assignment5.js  # If-Else assignments
+│
+├── chapter_08_Switch_Statement/      # Switch Statements
+│   ├── 59_Switch.js                      # Switch basics
+│   ├── 60_No_Break.js                    # Switch without break
+│   ├── 61_Default.js                     # Default case
+│   ├── 62_RealTimeEx.js                  # Real-time examples
+│   ├── 63_Switch_Group.js                # Grouped cases
+│   └── 64_IQ1.js to 67_IQ4.js           # Interview questions
+│
+├── chapter_09_User_Input/            # User Input in Node.js
+│   ├── 68_UserInput.js                   # User input basics
+│   ├── 69_Node_ReadLine.js               # Using readline module
+│   └── 70_Prompt_Sync.js               # Using prompt-sync package
 │
 └── (More chapters coming soon...)
 ```
@@ -100,6 +127,21 @@ node chapter_06_Operator/42_Type_Operator.js
 node chapter_06_Operator/43_Null_Operator.js
 node chapter_06_Operator/44_PreIncrement_Operator.js
 node chapter_06_Operator/45_PostIncrement_Operator.js
+
+# Chapter 7: If-Else
+node chapter_07_If_Else/48_IfElse.js
+node chapter_07_If_Else/56_Even_Odd.js
+node chapter_07_If_Else/57_Grade_Calc.js
+node chapter_07_If_Else/58_Leap_Year.js
+
+# Chapter 8: Switch Statement
+node chapter_08_Switch_Statement/59_Switch.js
+node chapter_08_Switch_Statement/62_RealTimeEx.js
+
+# Chapter 9: User Input
+node chapter_09_User_Input/68_UserInput.js
+node chapter_09_User_Input/69_Node_ReadLine.js
+node chapter_09_User_Input/70_Prompt_Sync.js
 ```
 
 ---
@@ -155,6 +197,27 @@ node chapter_06_Operator/45_PostIncrement_Operator.js
 - Pre-increment (`++x`) and Post-increment (`x++`)
 - Pre-decrement (`--x`) and Post-decrement (`x--`)
 - Interview questions on increment/decrement
+
+### Chapter 7: If-Else Statements
+- If, else if, else statements
+- Nested if-else
+- Even/Odd number checker
+- Grade calculator
+- Leap year checker
+- Common interview questions
+
+### Chapter 8: Switch Statements
+- Switch statement syntax and usage
+- Fall-through behavior (no break)
+- Default case handling
+- Grouped cases
+- Real-time examples
+- Interview questions
+
+### Chapter 9: User Input in Node.js
+- Reading user input with `readline`
+- Using `prompt-sync` package
+- Building interactive CLI applications
 
 ### Coming Up Next
 - Data Types

@@ -19,6 +19,34 @@
 // console.log(false == "0"); //true
 // console.log(false == '0'); //true
 
-console.log(true == 2); //true
-console.log(true == "2"); //true
+console.log(true == 1); //true
+console.log(true == 2); //false
+console.log(true == "2"); //false
+
+let num = 2;
+if (num) {
+    console.log("2 is truthy")
+} else {
+    console.log("2 is falsy")
+
+}
+//Falsy============
+// false
+// 0
+// -0
+// 0n
+// ""
+// null
+// undefined
+// NaN
+
+// Truthy==============
+// "hello"
+// []
+// {}
+// 1
+// -5
+// true
+// "0"
+
 
