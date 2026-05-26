@@ -99,6 +99,18 @@ LearnPlaywrightBatch2x/
 │   ├── 69_Node_ReadLine.js               # Using readline module
 │   └── 70_Prompt_Sync.js               # Using prompt-sync package
 │
+├── chapter_10_Loops/                   # Loops in JavaScript
+│   ├── 71_For1.js                        # For loop basics
+│   ├── 72_For2.js                        # For loop examples
+│   ├── 73_For3.js                        # For loop patterns
+│   ├── 74_IQ.js                          # Interview questions
+│   ├── 75_For_Of_In_Each.js              # for...of, for...in, forEach
+│   ├── 76_While.js                       # While loop
+│   ├── 77_DoWhile1.js                    # Do-While loop basics
+│   ├── 78_DoWhile2.js                    # Do-While loop examples
+│   ├── 79_IQ1.js to 82_IQ4.js            # Interview questions
+│   └── Assignment1.js to Assignment2.js  # Loop assignments
+│
 └── (More chapters coming soon...)
 ```
 
@@ -142,6 +154,22 @@ node chapter_08_Switch_Statement/62_RealTimeEx.js
 node chapter_09_User_Input/68_UserInput.js
 node chapter_09_User_Input/69_Node_ReadLine.js
 node chapter_09_User_Input/70_Prompt_Sync.js
+
+# Chapter 10: Loops
+node chapter_10_Loops/71_For1.js
+node chapter_10_Loops/72_For2.js
+node chapter_10_Loops/73_For3.js
+node chapter_10_Loops/74_IQ.js
+node chapter_10_Loops/75_For_Of_In_Each.js
+node chapter_10_Loops/76_While.js
+node chapter_10_Loops/77_DoWhile1.js
+node chapter_10_Loops/78_DoWhile2.js
+node chapter_10_Loops/79_IQ1.js
+node chapter_10_Loops/80_IQ2.js
+node chapter_10_Loops/81_IQ3.js
+node chapter_10_Loops/82_IQ4.js
+node chapter_10_Loops/Assignment1.js
+node chapter_10_Loops/Assignment2.js
 ```
 
 ---
@@ -218,6 +246,16 @@ node chapter_09_User_Input/70_Prompt_Sync.js
 - Reading user input with `readline`
 - Using `prompt-sync` package
 - Building interactive CLI applications
+
+### Chapter 10: Loops
+- `for` loop basics and patterns
+- `for...of` loop
+- `for...in` loop
+- `forEach` method
+- `while` loop
+- `do...while` loop
+- Common interview questions on loops
+- Loop assignments and practice problems
 
 ### Coming Up Next
 - Data Types
