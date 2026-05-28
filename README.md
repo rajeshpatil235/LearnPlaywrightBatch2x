@@ -111,6 +111,18 @@ LearnPlaywrightBatch2x/
 │   ├── 79_IQ1.js to 82_IQ4.js            # Interview questions
 │   └── Assignment1.js to Assignment2.js  # Loop assignments
 │
+├── chapter_11_Arrays/                  # Arrays in JavaScript
+│   ├── 83_Array1.js                        # Array basics
+│   ├── 84_Array2.js                        # Array creation & types
+│   ├── 85_AccessingArray.js                # Accessing elements
+│   ├── 86_ArrayAddRemove.js                # Adding & removing elements
+│   ├── 87_AddRemove.js                     # Add/remove methods deep dive
+│   ├── 88_RealTimeEx.js                    # Real-time examples
+│   ├── 89_Searching.js                     # Searching methods (indexOf, includes, find)
+│   ├── 90_Iterate.js                       # Iteration methods (map, filter, reduce)
+│   ├── 91_Transform_Array.js               # Transforming arrays
+│   └── 92_Array3.js                        # Advanced array concepts
+│
 └── (More chapters coming soon...)
 ```
 
@@ -170,6 +182,18 @@ node chapter_10_Loops/81_IQ3.js
 node chapter_10_Loops/82_IQ4.js
 node chapter_10_Loops/Assignment1.js
 node chapter_10_Loops/Assignment2.js
+
+# Chapter 11: Arrays
+node chapter_11_Arrays/83_Array1.js
+node chapter_11_Arrays/84_Array2.js
+node chapter_11_Arrays/85_AccessingArray.js
+node chapter_11_Arrays/86_ArrayAddRemove.js
+node chapter_11_Arrays/87_AddRemove.js
+node chapter_11_Arrays/88_RealTimeEx.js
+node chapter_11_Arrays/89_Searching.js
+node chapter_11_Arrays/90_Iterate.js
+node chapter_11_Arrays/91_Transform_Array.js
+node chapter_11_Arrays/92_Array3.js
 ```
 
 ---
@@ -257,10 +281,20 @@ node chapter_10_Loops/Assignment2.js
 - Common interview questions on loops
 - Loop assignments and practice problems
 
+### Chapter 11: Arrays
+- Array creation and initialization
+- Accessing elements by index
+- Adding and removing elements (push, pop, shift, unshift)
+- Searching methods: `indexOf`, `includes`, `find`, `findIndex`
+- Iteration methods: `forEach`, `map`, `filter`, `reduce`
+- Transforming arrays: `sort`, `reverse`, `slice`, `splice`, `concat`
+- Real-time examples and use cases
+- Advanced array concepts
+
 ### Coming Up Next
 - Data Types
 - Control Flow
-- Arrays & Objects
+- Objects
 - Introduction to Playwright
 
 ---
