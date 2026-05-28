@@ -120,10 +120,23 @@ LearnPlaywrightBatch2x/
 │   ├── 88_RealTimeEx.js                    # Real-time examples
 │   ├── 89_Searching.js                     # Searching methods (indexOf, includes, find)
 │   ├── 90_Iterate.js                       # Iteration methods (map, filter, reduce)
-│   ├── 91_Transform_Array.js               # Transforming arrays
-│   └── 92_Array3.js                        # Advanced array concepts
-│
-└── (More chapters coming soon...)
+    │   ├── 91_Transform_Array.js               # Transforming arrays
+    │   ├── 92_Array3_Sorting.js                # Sorting arrays
+    │   ├── 93_Array_Slice.js                   # Slicing arrays
+    │   ├── 94_Concat_Join.js                   # Concat & Join methods
+    │   └── 95_ArrayCheck.js                    # Array checking methods
+    │
+    ├── chapter_12_Function/                # Functions in JavaScript
+    │   ├── 96_Functions.js                     # Function basics
+    │   ├── 97_Type1_NoParam_NoReturn.js        # Functions with no params, no return
+    │   ├── 98_Type2_Param_NoReturn.js          # Functions with params, no return
+    │   ├── 99_Type3_NoParam_Return.js          # Functions with no params, with return
+    │   ├── 100_Type4_Param_Return.js           # Functions with params and return
+    │   ├── 101_TemplateLiteral_InFunction.js   # Template literals in functions
+    │   ├── 102_FunctionAsAnExpression.js       # Function expressions
+    │   └── 103_ArrowFunction.js                # Arrow functions
+    │
+    └── (More chapters coming soon...)
 ```
 
 ---
@@ -193,7 +206,20 @@ node chapter_11_Arrays/88_RealTimeEx.js
 node chapter_11_Arrays/89_Searching.js
 node chapter_11_Arrays/90_Iterate.js
 node chapter_11_Arrays/91_Transform_Array.js
-node chapter_11_Arrays/92_Array3.js
+node chapter_11_Arrays/92_Array3_Sorting.js
+node chapter_11_Arrays/93_Array_Slice.js
+node chapter_11_Arrays/94_Concat_Join.js
+node chapter_11_Arrays/95_ArrayCheck.js
+
+# Chapter 12: Functions
+node chapter_12_Function/96_Functions.js
+node chapter_12_Function/97_Type1_NoParam_NoReturn.js
+node chapter_12_Function/98_Type2_Param_NoReturn.js
+node chapter_12_Function/99_Type3_NoParam_Return.js
+node chapter_12_Function/100_Type4_Param_Return.js
+node chapter_12_Function/101_TemplateLiteral_InFunction.js
+node chapter_12_Function/102_FunctionAsAnExpression.js
+node chapter_12_Function/103_ArrowFunction.js
 ```
 
 ---
@@ -288,8 +314,21 @@ node chapter_11_Arrays/92_Array3.js
 - Searching methods: `indexOf`, `includes`, `find`, `findIndex`
 - Iteration methods: `forEach`, `map`, `filter`, `reduce`
 - Transforming arrays: `sort`, `reverse`, `slice`, `splice`, `concat`
+- Array sorting techniques
+- `slice` and `splice` methods
+- `concat` and `join` methods
+- Array checking methods (`Array.isArray`)
 - Real-time examples and use cases
-- Advanced array concepts
+
+### Chapter 12: Functions
+- Function declaration and basics
+- Functions with no parameters and no return value
+- Functions with parameters and no return value
+- Functions with no parameters and return value
+- Functions with parameters and return value
+- Template literals inside functions
+- Function expressions
+- Arrow functions
 
 ### Coming Up Next
 - Data Types
