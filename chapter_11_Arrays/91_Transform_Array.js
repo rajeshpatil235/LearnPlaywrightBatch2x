@@ -11,7 +11,7 @@ console.log(result);
 let moreThan50 = marks.filter(s => s > 50);
 console.log(moreThan50);
 
-// reduce , // reduce — accumulates to a single value
+// reduce  — accumulates to a single value
 let total = marks.reduce((mark, sum) => mark + sum, 0);
 console.log(total);
 
