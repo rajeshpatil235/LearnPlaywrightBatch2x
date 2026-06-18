@@ -136,7 +136,68 @@ LearnPlaywrightBatch2x/
     │   ├── 102_FunctionAsAnExpression.js       # Function expressions
     │   └── 103_ArrowFunction.js                # Arrow functions
     │
-    └── (More chapters coming soon...)
+    │
+    ├── chapter_13_Strings/                 # Strings in JavaScript
+    │   ├── 104_StringBasics.js                 # String basics
+    │   ├── 105_StringMethods.js                # Common string methods
+    │   ├── 106_StringSearch.js                 # Searching in strings
+    │   ├── 107_StringExtract.js                # Extracting substrings
+    │   ├── 108_StringReplace.js                # Replacing string content
+    │   ├── 109_StringCase.js                   # Case conversion methods
+    │   ├── 110_StringTrim.js                   # Trimming whitespace
+    │   ├── 111_StringPad.js                    # Padding strings
+    │   ├── 112_StringSplit.js                  # Splitting strings
+    │   ├── 113_TemplateLiterals.js             # Template literals deep dive
+    │   ├── 114_StringImmutability.js           # String immutability
+    │   ├── 115_StringInterview.js              # String interview questions
+    │   ├── 116_StringExercises.js              # String practice exercises
+    │   └── 117_Palindrome.js                   # Palindrome checker exercise
+    │
+    ├── chapter_14_Objects/                 # Objects in JavaScript
+    │   ├── 124_Objects.js                      # Object basics
+    │   ├── 125_Objects.js                      # Object properties
+    │   ├── 126_ObjectCreation.js               # Creating objects
+    │   ├── 127_ObjectsReal.js                  # Real-world object examples
+    │   ├── 128_PrimitiveRf.js                  # Primitive vs Reference types
+    │   ├── 129_ObjectsExamples.js              # Object examples
+    │   ├── 130_IQ1.js                          # Interview questions 1
+    │   ├── 131_ObjectFunction.js               # Object methods
+    │   ├── 132_ObjectDeconstruction.js         # Object destructuring
+    │   ├── 133_Spread.js                       # Spread operator with objects
+    │   ├── 134_GetSetMethod.js                 # Getters and setters
+    │   ├── 135_IQ2.js                          # Interview questions 2
+    │   ├── 136_ObjectsReal.js                  # More real examples
+    │   └── 137_let_const_objects.js            # let/const with objects
+    │
+    ├── chapter_15_2D_Arrays/               # 2D Arrays / Matrices
+    │   ├── 138_2D_Array.js                     # 2D array basics
+    │   ├── 139_2D.js                           # 2D array operations
+    │   ├── 140_RealExample.js                  # Real-world 2D array examples
+    │   ├── 141_2D.js                           # Matrix operations
+    │   ├── 142_IQ_Right_Triangle_Pattern.js    # Pattern printing exercise
+    │   └── Assignment_Reverse_RightTriangle.js # Reverse triangle assignment
+    │
+    ├── chapter_16_Callback/                # Callback Functions
+    │   ├── 143_Callback.js                     # Callback basics
+    │   ├── 144_CB.js                           # Callback patterns
+    │   ├── 145_CallbackFunction.js             # Callback functions deep dive
+    │   ├── 146_PlaywrightCallback.js           # Callbacks in Playwright context
+    │   ├── 147_JS_CB.js                        # JavaScript callbacks
+    │   ├── 148_Sync_CB.js                      # Synchronous callbacks
+    │   ├── 149_Async_CB.js                     # Asynchronous callbacks
+    │   ├── 150_CB_Hell.js                      # Callback hell problem
+    │   ├── 151_CB_Hell_20TestCases.js          # Callback hell with test cases
+    │   ├── 152_CB_Parameter.js                 # Callbacks as parameters
+    │   └── 153_CB_Return.js                    # Returning callbacks
+    │
+    └── chapter_17_Promises/                # JavaScript Promises
+        ├── 154_Promise.js                      # Promise basics
+        ├── 155_Promise_RealEx1.js              # Real Promise example 1
+        ├── 156_PromiseRealEx2.js               # Real Promise example 2
+        ├── 157_Finally.js                      # Promise.finally()
+        ├── 158_CallBackHellPyramidProblem.js   # Solving callback hell
+        ├── 159_PromiseAll.js                   # Promise.all()
+        └── 160_PromiseIQ.js                    # Promise interview questions
 ```
 
 ---
@@ -220,6 +281,68 @@ node chapter_12_Function/100_Type4_Param_Return.js
 node chapter_12_Function/101_TemplateLiteral_InFunction.js
 node chapter_12_Function/102_FunctionAsAnExpression.js
 node chapter_12_Function/103_ArrowFunction.js
+
+# Chapter 13: Strings
+node chapter_13_Strings/104_StringBasics.js
+node chapter_13_Strings/105_StringMethods.js
+node chapter_13_Strings/106_StringSearch.js
+node chapter_13_Strings/107_StringExtract.js
+node chapter_13_Strings/108_StringReplace.js
+node chapter_13_Strings/109_StringCase.js
+node chapter_13_Strings/110_StringTrim.js
+node chapter_13_Strings/111_StringPad.js
+node chapter_13_Strings/112_StringSplit.js
+node chapter_13_Strings/113_TemplateLiterals.js
+node chapter_13_Strings/114_StringImmutability.js
+node chapter_13_Strings/115_StringInterview.js
+node chapter_13_Strings/116_StringExercises.js
+node chapter_13_Strings/117_Palindrome.js
+
+# Chapter 14: Objects
+node chapter_14_Objects/124_Objects.js
+node chapter_14_Objects/125_Objects.js
+node chapter_14_Objects/126_ObjectCreation.js
+node chapter_14_Objects/127_ObjectsReal.js
+node chapter_14_Objects/128_PrimitiveRf.js
+node chapter_14_Objects/129_ObjectsExamples.js
+node chapter_14_Objects/130_IQ1.js
+node chapter_14_Objects/131_ObjectFunction.js
+node chapter_14_Objects/132_ObjectDeconstruction.js
+node chapter_14_Objects/133_Spread.js
+node chapter_14_Objects/134_GetSetMethod.js
+node chapter_14_Objects/135_IQ2.js
+node chapter_14_Objects/136_ObjectsReal.js
+node chapter_14_Objects/137_let_const_objects.js
+
+# Chapter 15: 2D Arrays
+node chapter_15_2D_Arrays/138_2D_Array.js
+node chapter_15_2D_Arrays/139_2D.js
+node chapter_15_2D_Arrays/140_RealExample.js
+node chapter_15_2D_Arrays/141_2D.js
+node chapter_15_2D_Arrays/142_IQ_Right_Triangle_Pattern.js
+node chapter_15_2D_Arrays/Assignment_Reverse_RightTriangle.js
+
+# Chapter 16: Callback Functions
+node chapter_16_Callback/143_Callback.js
+node chapter_16_Callback/144_CB.js
+node chapter_16_Callback/145_CallbackFunction.js
+node chapter_16_Callback/146_PlaywrightCallback.js
+node chapter_16_Callback/147_JS_CB.js
+node chapter_16_Callback/148_Sync_CB.js
+node chapter_16_Callback/149_Async_CB.js
+node chapter_16_Callback/150_CB_Hell.js
+node chapter_16_Callback/151_CB_Hell_20TestCases.js
+node chapter_16_Callback/152_CB_Parameter.js
+node chapter_16_Callback/153_CB_Return.js
+
+# Chapter 17: Promises
+node chapter_17_Promises/154_Promise.js
+node chapter_17_Promises/155_Promise_RealEx1.js
+node chapter_17_Promises/156_PromiseRealEx2.js
+node chapter_17_Promises/157_Finally.js
+node chapter_17_Promises/158_CallBackHellPyramidProblem.js
+node chapter_17_Promises/159_PromiseAll.js
+node chapter_17_Promises/160_PromiseIQ.js
 ```
 
 ---
@@ -330,10 +453,64 @@ node chapter_12_Function/103_ArrowFunction.js
 - Function expressions
 - Arrow functions
 
+### Chapter 13: Strings
+- String basics and creation
+- Common string methods: `charAt`, `charCodeAt`, `at`
+- String searching: `indexOf`, `lastIndexOf`, `includes`, `startsWith`, `endsWith`
+- Extracting substrings: `slice`, `substring`, `substr`
+- Replacing content: `replace`, `replaceAll`
+- Case conversion: `toUpperCase`, `toLowerCase`
+- Trimming: `trim`, `trimStart`, `trimEnd`
+- Padding: `padStart`, `padEnd`
+- Splitting strings: `split`
+- Template literals with interpolation
+- String immutability
+- String interview questions and exercises
+- Palindrome checker implementation
+
+### Chapter 14: Objects
+- Object basics and creation methods
+- Object properties and keys
+- Real-world object examples
+- Primitive vs Reference types
+- Object methods and `this` keyword
+- Object destructuring
+- Spread operator with objects
+- Getters and setters
+- Object interview questions
+- Using `let` and `const` with objects
+
+### Chapter 15: 2D Arrays
+- 2D array basics and creation
+- Matrix operations and traversal
+- Real-world 2D array examples
+- Pattern printing: Right triangle
+- Reverse triangle patterns
+- Matrix manipulation techniques
+
+### Chapter 16: Callback Functions
+- Callback function basics
+- Synchronous callbacks
+- Asynchronous callbacks
+- Callbacks in Playwright context
+- Callback hell problem
+- Solving callback hell patterns
+- Callbacks as parameters and return values
+- Practical callback exercises
+
+### Chapter 17: Promises
+- Promise basics and states
+- Creating and consuming Promises
+- Real-world Promise examples
+- Promise chaining
+- Promise.finally() method
+- Solving callback hell with Promises
+- Promise.all() for parallel execution
+- Promise interview questions
+
 ### Coming Up Next
-- Data Types
-- Control Flow
-- Objects
+- Async/Await
+- Error Handling
 - Introduction to Playwright
 
 ---
